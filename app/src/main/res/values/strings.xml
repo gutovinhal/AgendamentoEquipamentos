@@ -1,0 +1,14 @@
+<resources>
+    <!-- String para o nome do aplicativo -->
+    <string name="agendamento_equipamentos">Agendamento Equipamentos</string>
+
+    <!-- Adicione outras strings que você possa ter aqui, por exemplo: -->
+    <string name="nome_do_equipamento">Nome do Equipamento</string>
+    <string name="data_do_agendamento">Data do Agendamento</string>
+    <string name="encarregado_responsavel">Encarregado Responsável</string>
+    <string name="obra_designada">Obra Designada</string>
+    <string name="agendar_equipamento">Agendar Equipamento</string>
+
+    <!-- Outros recursos de string que seu app possa precisar -->
+    <string name="equipament_image">Imagem de equipamento</string>
+</resources>

@@ -1,0 +1,91 @@
+<!-- activity_main.xml -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/equipaments_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@android:color/black"
+        android:alpha="0.8"
+        android:padding="16dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/equipaments"
+            android:contentDescription="@string/equipament_image"
+            android:layout_marginBottom="24dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true" />
+
+        <EditText
+            android:id="@+id/equipmentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nome_do_equipamento"
+            android:inputType="text"
+            android:textColor="@android:color/black"
+            android:background="@android:color/white"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="16sp"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/bookingDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="name"
+            android:hint="@string/data_do_agendamento"
+            android:inputType="date"
+            android:textColor="@android:color/black"
+            android:background="@android:color/white"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/responsiblePerson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/encarregado_responsavel"
+            android:inputType="text"
+            android:textColor="@android:color/black"
+            android:background="@android:color/white"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="16sp"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/designatedWork"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/obra_designada"
+            android:inputType="text"
+            android:textColor="@android:color/black"
+            android:background="@android:color/white"
+            android:padding="16dp"
+            android:layout_marginBottom="24dp"
+            android:textSize="16sp"
+            android:importantForAutofill="no" />
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/agendar_equipamento"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#795548"
+            android:textSize="16sp"
+            android:padding="12dp" />
+    </LinearLayout>
+</FrameLayout>

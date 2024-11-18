@@ -1,0 +1,27 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.agendamentoequipamentos">
+
+    <application
+        android:name=".agendamento.AgendamentoApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/agendamento_equipamentos"
+        android:theme="@style/Theme.AgendamentoEquipamentos"
+        tools:targetApi="31">
+
+    <activity
+        android:name=".agendamento.MainActivity"
+        android:exported="true"
+        android:theme="@style/Theme.AgendamentoEquipamentos">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+            <action android:name="com.example.action.APP_ACTION" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+</application>
+
+    </manifest>
