@@ -1,6 +1,6 @@
 # Agendamento de Equipamentos ✅
 
-## Descrição do Projeto
+## Descrição do Projeto 🌓
 
 O projeto "Agendamento de Equipamentos" é uma aplicação Android que permite aos usuários agendar equipamentos de forma simples e eficiente. O aplicativo oferece uma interface amigável para inserir informações sobre os equipamentos, a data de agendamento, a pessoa responsável e a tarefa designada. 
 
