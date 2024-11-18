@@ -42,4 +42,4 @@ Antes de executar o projeto, certifique-se de ter o seguinte instalado:
 
 1. **Clone o repositório**: 
    ```bash
-   git clone https://github.com/SeuUsuario/NomeDoRepositorio.git
+   git clone https://github.com/gutovinhal/agendamentoequipamentos.git
